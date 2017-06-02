@@ -1,6 +1,6 @@
 Continuous Integration and Delivery with Fastlane
 =========
-[![Build Status](https://travis-ci.org/ivanbruel/FastlaneExample.svg?branch=test-run)](https://travis-ci.org/ivanbruel/FastlaneExample)
+[![Build Status](https://travis-ci.org/lzilber/FastlaneExample.svg?branch=test-run)](https://travis-ci.org/lzilber/FastlaneExample)
 
 > fastlane is a tool for iOS and Android developers to automate tedious tasks like generating screenshots, dealing with provisioning profiles, and releasing your application. - Felix Krause @KrausFx
 
