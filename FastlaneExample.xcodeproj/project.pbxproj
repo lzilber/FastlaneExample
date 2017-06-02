@@ -36,23 +36,6 @@
 		FF271841ABF3809ED8BF5655 /* Pods_FastlaneExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AF3AFE8D0A2E10E7A7D1E8 /* Pods_FastlaneExampleTests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		30F0FD591EDD6FE6000E9A12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30F0FD3C1EDD6FE5000E9A12 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30F0FD431EDD6FE5000E9A12;
-			remoteInfo = FastlaneExample;
-		};
-		30F0FD641EDD6FE6000E9A12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30F0FD3C1EDD6FE5000E9A12 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30F0FD431EDD6FE5000E9A12;
-			remoteInfo = FastlaneExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		3000785B1EDDAB8F000C1649 /* ivanbruel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ivanbruel.json; sourceTree = "<group>"; };
 		3000785D1EDDAC91000C1649 /* JSONReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
@@ -326,7 +309,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				30F0FD5A1EDD6FE6000E9A12 /* PBXTargetDependency */,
 			);
 			name = FastlaneExampleTests;
 			productName = FastlaneExampleTests;
@@ -347,7 +329,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				30F0FD651EDD6FE6000E9A12 /* PBXTargetDependency */,
 			);
 			name = FastlaneExampleUITests;
 			productName = FastlaneExampleUITests;
@@ -371,9 +352,8 @@
 					};
 					30F0FD571EDD6FE6000E9A12 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 995D5UJTTW;
+						DevelopmentTeam = 94DH6GTD54;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 30F0FD431EDD6FE5000E9A12;
 					};
 					30F0FD621EDD6FE6000E9A12 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -627,19 +607,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		30F0FD5A1EDD6FE6000E9A12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30F0FD431EDD6FE5000E9A12 /* FastlaneExample */;
-			targetProxy = 30F0FD591EDD6FE6000E9A12 /* PBXContainerItemProxy */;
-		};
-		30F0FD651EDD6FE6000E9A12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30F0FD431EDD6FE5000E9A12 /* FastlaneExample */;
-			targetProxy = 30F0FD641EDD6FE6000E9A12 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		30F0FD501EDD6FE6000E9A12 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -756,7 +723,7 @@
 				DEVELOPMENT_TEAM = 995D5UJTTW;
 				INFOPLIST_FILE = FastlaneExample/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.swiftaveiro.FastlaneExample;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zebre.FastlaneExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -770,7 +737,7 @@
 				DEVELOPMENT_TEAM = 995D5UJTTW;
 				INFOPLIST_FILE = FastlaneExample/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.swiftaveiro.FastlaneExample;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zebre.FastlaneExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -780,14 +747,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D6DAC84EEE5C5032B4D7163 /* Pods-FastlaneExampleTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 995D5UJTTW;
+				DEVELOPMENT_TEAM = 94DH6GTD54;
 				INFOPLIST_FILE = FastlaneExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.swiftaveiro.FastlaneExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlaneExample.app/FastlaneExample";
 			};
 			name = Debug;
 		};
@@ -795,14 +760,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A8F6422CA9909B22F95E19C /* Pods-FastlaneExampleTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 995D5UJTTW;
+				DEVELOPMENT_TEAM = 94DH6GTD54;
 				INFOPLIST_FILE = FastlaneExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.swiftaveiro.FastlaneExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlaneExample.app/FastlaneExample";
 			};
 			name = Release;
 		};
