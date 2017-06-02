@@ -748,6 +748,7 @@
 				PROVISIONING_PROFILE = "9c50724c-26c6-4f9d-8610-b24c54d944bb";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.zebre.FastlaneExample";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -765,6 +766,7 @@
 				PROVISIONING_PROFILE = "9c50724c-26c6-4f9d-8610-b24c54d944bb";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.zebre.FastlaneExample";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};

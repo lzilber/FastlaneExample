@@ -5,6 +5,7 @@ install:
 script:
 - bundle exec fastlane test
 - bundle exec fastlane ui_test
+- bundle exec fastlane release
 env:
   global:
   - secure: hucMr3an1urDBBzINCDU1DA+5ekIK6/DOMEJCwujlW3emFR/mrlYWJasmpmCuVXYBeHvT5Kfqn5Dsje34CY8FHj76P/FnCnaT1Ugi0do+GK9lxpC6QGnA4WxmXDJ4byp72bXT0faOgU2pO8lFEdt5cJb1cf6cuz+cpjvFWWxzaDSKr9Nd6/xt1meEwd1XwvqyCd20dVeqtt4xQf06toN10l8xIma7WnOnr8uuMd2CkcNg4zQlZ2GUkEusIMcyePUqwawWtj2Eodi4lYOcIv2vuZqj4H+F+VjIf7K0q8NG8JA3gv5qrWfdsBb1x0J9VqYUMAiTr914pLbQY8aEBPI++2XenQXny50MKrBpUFn0ykArCT4mivRb8w9ECkIw103Cu6W+zi9xXLyLwdrp/3+yPqau5pglr5r2N80w/LKXu6CxfIiaBndOeOEa8UVbly9Z6Nzpm2o9+c+9s+8pbqjtnh+wVBAuRP4WZBX67+mTn+FKKxD+u9s9X1PGXnt8+ks4blVBbiM7mI51rWc/jQtPTMfmcQvIPAvwRoD0M0U3fosl1mlN6X8lywBRRAnXfK4DzWNoOOCDLG7ZhGCi57/7qCl3y7X/752EfEKwTpV335VPYQduoJ+1wFz0oW+uYKNzelvPrm+28tXLLHr221rA9ZW/GKZaqLua+PlyxM8S+8=

@@ -72,6 +72,10 @@ platform :ios do
     # frameit
   end
 
+  lane :version do
+    increment_build_number(build_number: Time.now.getutc.to_i)
+  end
+	
   # You can define as many lanes as you want
 
   after_all do |lane|
